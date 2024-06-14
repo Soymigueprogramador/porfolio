@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #000;
+    
+    .title {
+      color: #fff;
+      font-size: 2rem;
+    }
+  
+    .pages {
+      color: #fff;
+      font-size: 1rem;
+      text-align: center;
+      
+      .collapse {
+        background-color: #fff;
+        border-color: #fff;
+      }
+    }
+  }
