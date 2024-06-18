@@ -1,10 +1,13 @@
-import NavBar from '../../components/NavBar/NavBar'
+import NavBar from '../../components/NavBar/NavBar.jsx'
+import Footer from '../../components/Footer/Footer.jsx'
+import TextExample from '../../components/CardText/CardText.jsx'
 
 const SobreMi = () => {
   return (
     <div>
         <NavBar />
-        <h1> Sobre mi </h1>
+        <TextExample />
+        <Footer />
     </div>
   )
 }
