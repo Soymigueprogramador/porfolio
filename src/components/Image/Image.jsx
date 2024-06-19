@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row'; 
-import reactSvg from '../../assets/react.svg'; 
+import Miguel from '../../assets/Miguel.jpg'
 
 function ShapeExample({ type }) {
   let imageType;
@@ -13,10 +13,10 @@ function ShapeExample({ type }) {
       imageType = <Image src="holder.js/171x180" rounded />;
       break;
     case 'roundedCircle':
-      imageType = <Image className={styles.prueba} src={reactSvg} roundedCircle />; 
+      imageType = <Image  src="holder.js/171x180" roundedCircle />; 
       break;
     case 'thumbnail':
-      imageType = <Image src="holder.js/171x180" thumbnail />;
+      imageType = <Image className={styles.img_presentacion} src={Miguel.jpg} thumbnail />;
       break;
     default:
       imageType = <Image src="holder.js/171x180" />;
@@ -36,4 +36,4 @@ function ShapeExample({ type }) {
 
 export default ShapeExample;
 
-{/* <ShapeExample type="roundedCircle" /> */}
+{/* <ShapeExample type="thumbnail" /> */}

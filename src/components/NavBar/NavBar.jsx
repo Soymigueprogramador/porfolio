@@ -15,6 +15,7 @@ function NavBar() {
             <Link to="/" className={styles.pages}> Inicio </Link>
             <Link to="/sobre-mi" className={`${styles.pages}`}> Sobre mí </Link>
             <Link to="/certificados" className={`${styles.pages}`}> Certificados </Link>
+            <Link to="/tecnologias" className={`${styles.pages}`}> Tecnologias </Link>
             <Link to="/proyectos" className={`${styles.pages}`}> Proyectos </Link>
             <Link to="/contacto" className={`${styles.pages}`}> Contacto </Link>
           </Nav>

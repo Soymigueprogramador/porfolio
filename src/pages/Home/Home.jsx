@@ -1,12 +1,11 @@
-import NavBar from '../../components/NavBar/NavBar.jsx';
-import Footer from '../../components/Footer/Footer.jsx';
+import ShapeExample from '../../components/Image/Image.jsx'
 
 const Home = () => {
   return (
     <div>
-      <NavBar />
       <h1> Bienvenidos al Home </h1>
-      <Footer />
+      <ShapeExample type="thumbnail" />
+
     </div>
   );
 };
